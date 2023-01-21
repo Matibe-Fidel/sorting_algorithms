@@ -36,7 +36,7 @@ listint_t *create_listint(const int *array, size_t size)
 /**
  * main - Entry point
  *
- * return 0
+ * Return: Always 0
  */
 int main(void)
 {
@@ -54,4 +54,3 @@ int main(void)
 	print_list(list);
 	return (0);
 }
-
