@@ -34,9 +34,13 @@ typedef struct listint_s
 	struct listint_s *next;
 } listint_t;
 
+/*Helper for swapping function*/
+void swap_ints(int *a, int *b);
+
 /* Printing helper functions */
 void print_array(const int *array, size_t size);
 void print_list(const listint_t *list);
+
 
 /* Sorting algoritms */
 void bubble_sort(int *array, size_t size);
