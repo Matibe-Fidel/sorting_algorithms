@@ -1,7 +1,6 @@
 #ifndef DECK_H
 #define DECK_H
 
-#include <stdlib.h>
 
 /**
  * enum kind_e - Enumeration of card suits.
@@ -34,6 +33,7 @@ typedef struct card_s
 /**
  * struct deck_node_s - Deck of card
  *
+ * @card: Pointer to the card of the node
  * @prev: Pointer to the previous node of the list
  * @next: Pointer to the next node of the list
  */
