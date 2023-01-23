@@ -11,13 +11,14 @@ void quick_sort(int *array, size_t size)
 {
 	quick_sorting(array, size, array, size);
 }
- /**
-  * quick_sorting - sorts array with quick sort, prints after every switch
-  * @array: array or subarray to sort
-  * @size: size of array to sort
-  * @full_array: full array for printing
-  * @full_size: size of full array for printing
-  */
+
+/**
+ * quick_sorting - sorts array with quick sort, prints after every switch
+ * @array: array or subarray to sort
+ * @size: size of array to sort
+ * @full_array: full array for printing
+ * @full_size: size of full array for printing
+ */
 
 void quick_sorting(int *array, size_t size, int *full_array, size_t full_size)
 {
@@ -52,4 +53,4 @@ void quick_sorting(int *array, size_t size, int *full_array, size_t full_size)
 	/* right side */
 	placeholder += 1;
 	quick_sorting(&array[placeholder], size - placeholder, full_array, full_size);
-}		
+}
