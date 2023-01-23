@@ -1,17 +1,19 @@
 #include "sort.h"
-
 /**
  * bubble_sort - sorts an array of integers using bubble sort
  * array is sorted in ascending order
- * @a: The first integer to swap.
- * @b: The second integer to swap.
+ * @array: given array to sort
+ * @size: size of array to sort
+ *
  */
 
 void bubble_sort(int *array, size_t size)
 {
+/* bubble sort: */
+/* checks pair at a time, swapping if needed; repeats til sorted */
+
 	int check = 1, holder = 0;
 	unsigned int i = 0;
-
 
 	while (check)
 	{
